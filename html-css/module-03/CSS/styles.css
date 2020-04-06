@@ -6,7 +6,16 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   line-height: 24px;
+  text-align: center;
 }
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  display: block;
+}
+
 .nav {
   font-size: 14px;
   list-style: none;
@@ -22,7 +31,6 @@ body {
   display: inline-block;
 }
 .menu-link-1 {
-  margin-left: 312px;
   margin-right: 121px;
 }
 .menu-link-2 {
@@ -37,19 +45,11 @@ body {
   color: #626262;
 }
 .nav a {
-  font-weight: 400;
-  /* color: #626262; */
   text-transform: uppercase;
   text-decoration: none;
   line-height: 24px;
 }
-.filling {
-  margin: 0;
-  padding: 0;
-}
-.filling-list {
-  margin-left: 150px;
-}
+
 .filling-1,
 .filling-2,
 .filling-3,
@@ -62,43 +62,38 @@ body {
 img {
   display: block;
 }
+
 .filling-1 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-bottom: 135px;
 }
 .filling-2 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-left: 60px;
   margin-bottom: 135px;
 }
 .filling-3 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-bottom: 135px;
   margin-left: 0;
 }
 .filling-4 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-left: 60px;
   margin-bottom: 135px;
 }
 .filling-5 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-bottom: 135px;
 }
 .filling-6 {
   box-sizing: border-box;
   width: 421px;
-  height: 477px;
   margin-left: 60px;
   margin-bottom: 135px;
 }
@@ -117,12 +112,14 @@ img {
   padding-top: 46px;
 }
 .filling h3 {
+  text-align: left;
   color: #626262;
   font-size: 30px;
   line-height: 36px;
   padding-top: 35px;
 }
 .filling p {
+  text-align: left;
   color: #626262;
   font-size: 14px;
   line-height: 24px;
@@ -139,7 +136,6 @@ button {
   height: 60px;
 }
 .load-more {
-  margin-left: 507px;
   padding-bottom: 70px;
 }
 
