@@ -6,22 +6,22 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
+ 
 }
 
 .wrapper {
   position: relative;
   margin: 0 auto;
-  width: 1200px;
+  margin-top: 77px;
+  width: 904px;
   display: block;
+  text-align: center;
 }
 
 .nav {
   font-size: 14px;
   list-style: none;
-  margin: 0;
-  padding-top: 77px;
-  padding-bottom: 103px;
+  margin-bottom: 103px;
 }
 .list-1 a {
   color: #03a9f4;
@@ -50,53 +50,29 @@ body {
   line-height: 24px;
 }
 
-.filling-1,
-.filling-2,
-.filling-3,
-.filling-4,
-.filling-5,
-.filling-6 {
-  display: inline-block;
-}
-
 img {
   display: block;
 }
-
 .filling-1 {
+  display: inline-block;
   box-sizing: border-box;
-  width: 421px;
+  width: 420px;
+  margin-right: 60px;
   margin-bottom: 135px;
 }
 .filling-2 {
+  display: inline-block;
   box-sizing: border-box;
-  width: 421px;
-  margin-left: 60px;
-  margin-bottom: 135px;
+  width: 420px;
+  margin-right: 0px;
 }
 .filling-3 {
+  display: inline-block;
   box-sizing: border-box;
-  width: 421px;
-  margin-bottom: 135px;
-  margin-left: 0;
-}
-.filling-4 {
-  box-sizing: border-box;
-  width: 421px;
+  width: 420px;
   margin-left: 60px;
-  margin-bottom: 135px;
 }
-.filling-5 {
-  box-sizing: border-box;
-  width: 421px;
-  margin-bottom: 135px;
-}
-.filling-6 {
-  box-sizing: border-box;
-  width: 421px;
-  margin-left: 60px;
-  margin-bottom: 135px;
-}
+
 .filling-list {
   list-style: none;
 }
@@ -110,8 +86,8 @@ img {
 }
 .ubuntu_text {
   padding-top: 46px;
-}
-.filling h3 {
+  }
+  .filling h3 {
   text-align: left;
   color: #626262;
   font-size: 30px;
@@ -136,8 +112,13 @@ button {
   height: 60px;
 }
 .load-more {
+  margin-top: 57px;
   padding-bottom: 70px;
-}
+  }
+
+
+
+
 
 .visually-hidden:not(:focus):not(:active),
 input [type="checkbox"],
