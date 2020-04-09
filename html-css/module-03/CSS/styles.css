@@ -6,14 +6,13 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   line-height: 24px;
- 
 }
 
 .wrapper {
   position: relative;
   margin: 0 auto;
   margin-top: 77px;
-  width: 904px;
+  width: 900px;
   display: block;
   text-align: center;
 }
@@ -53,24 +52,24 @@ body {
 img {
   display: block;
 }
+
 .filling-1 {
   display: inline-block;
   box-sizing: border-box;
-  width: 420px;
+  width: 418px;
   margin-right: 60px;
   margin-bottom: 135px;
 }
+
+.filling-1:nth-child(n + 5) {
+  margin-bottom: 0px;
+}
+
 .filling-2 {
   display: inline-block;
   box-sizing: border-box;
-  width: 420px;
+  width: 418px;
   margin-right: 0px;
-}
-.filling-3 {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 420px;
-  margin-left: 60px;
 }
 
 .filling-list {
@@ -86,8 +85,8 @@ img {
 }
 .ubuntu_text {
   padding-top: 46px;
-  }
-  .filling h3 {
+}
+.filling h3 {
   text-align: left;
   color: #626262;
   font-size: 30px;
@@ -114,11 +113,7 @@ button {
 .load-more {
   margin-top: 57px;
   padding-bottom: 70px;
-  }
-
-
-
-
+}
 
 .visually-hidden:not(:focus):not(:active),
 input [type="checkbox"],
