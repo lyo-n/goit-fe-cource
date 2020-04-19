@@ -5,55 +5,71 @@
 .wrapper {
   position: relative;
   margin: 0 auto;
-  margin-top: 38px;
   width: 1110px;
   display: block;
   text-align: center;
 }
-.site_logo {
+.header_main {
+  padding-top: 38px;
+  padding-bottom: 105px;
+}
+.site_logo a {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555252;
   float: left;
 }
-.nav {
+.site_logo a:first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.navigation {
   float: right;
-  width: 475px;
+}
+.menu_n {
+  margin-top: 5px;
+}
+.nav_list {
+  float: left;
   font-family: "Open Sans", sans-serif;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
   font-weight: 900;
   margin-bottom: 15px;
-}
-.nav li {
-  float: left;
   list-style-type: none;
-  margin-top: 5px;
+  margin-top: 9px;
 }
-.nav a {
+.link,
+.link_1 {
   color: black;
   text-decoration: none;
 }
-.nav a:hover {
+.link_1 {
   color: #1abc9c;
 }
-.nav_1 {
-  margin-left: 10px;
+.nav_list:nth-child(1) {
   margin-right: 34px;
 }
-.nav_2 {
+.nav_list:nth-child(2) {
   margin-right: 38px;
 }
-.nav_3 {
+.nav_list:nth-child(3) {
   margin-right: 30px;
 }
-.nav_4 {
+.nav_list:nth-child(4) {
   margin-right: 27px;
 }
-.nav_5 {
+.nav_list:nth-child(5) {
   margin-right: 34px;
 }
-.nav_6 {
+.nav_list:nth-child(6) {
   margin-right: 0px;
 }
+
 .heading {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -62,15 +78,14 @@
   line-height: 41px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 105px;
-  padding-bottom: 32px;
+  margin: 0;
 }
 .bg {
   display: inline-block;
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  position: center;
+  margin-top: 32px;
   margin-bottom: 92px;
 }
 .filling_1 {
@@ -91,7 +106,6 @@
 .filling_1:nth-child(n + 5) {
   margin-bottom: 105px;
 }
-
 .filling_1:hover > .name_products {
   background-color: #1abc9c;
 }
@@ -130,15 +144,15 @@
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  position: center;
+  margin-top: 32px;
   margin-bottom: 81px;
 }
 .filling_2 {
-  display: block;
   float: left;
   margin-right: 30px;
   width: 350px;
   text-align: left;
+  list-style-type: none;
 }
 .filling_2:nth-child(3) {
   margin-right: 0px;
@@ -155,7 +169,6 @@
   width: 136px;
   height: 3px;
   background-color: #1abc9c;
-  position: left;
   margin-bottom: 29px;
 }
 .latest_news p {
