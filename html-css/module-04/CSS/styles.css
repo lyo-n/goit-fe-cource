@@ -10,8 +10,7 @@
   text-align: center;
 }
 .header_main {
-  padding-top: 38px;
-  padding-bottom: 105px;
+  margin-top: 38px;
 }
 .site_logo a {
   font-family: "Roboto", sans-serif;
@@ -29,9 +28,6 @@
 .navigation {
   float: right;
 }
-.menu_n {
-  margin-top: 5px;
-}
 .nav_list {
   float: left;
   font-family: "Open Sans", sans-serif;
@@ -43,13 +39,13 @@
   list-style-type: none;
   margin-top: 9px;
 }
-.link,
-.link_1 {
+.link {
   color: black;
   text-decoration: none;
 }
 .link_1 {
   color: #1abc9c;
+  text-decoration: none;
 }
 .nav_list:nth-child(1) {
   margin-right: 34px;
@@ -69,22 +65,26 @@
 .nav_list:nth-child(6) {
   margin-right: 0px;
 }
-.heading {
+.heading h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   color: #555252;
   font-size: 34px;
   line-height: 41px;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 105px;
 }
-.bg {
+.heading:after {
+  content: " ";
   display: inline-block;
-  width: 164px;
-  height: 7px;
+  border: none;
   background-color: #1abc9c;
-  margin-top: 32px;
+  height: 7px;
+  width: 164px;
+  text-align: center;
   margin-bottom: 92px;
 }
 .filling_1 {
@@ -138,13 +138,30 @@
   text-align: center;
   background: #8c8c8c;
 }
-.bg_2 {
+.latest_news {
+  margin: 0;
+  padding: 0;
+}
+.heading_2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #555252;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+.heading_2:after {
+  content: " ";
   display: inline-block;
-  width: 164px;
-  height: 7px;
+  border: none;
   background-color: #1abc9c;
-  margin-top: 32px;
-  margin-bottom: 81px;
+  height: 7px;
+  width: 164px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 .filling_2 {
   float: left;
@@ -160,23 +177,29 @@
 .latest_news h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 16px;
   margin-bottom: 15px;
+  padding-top: 15px;
+  color: #555252;
 }
-.bg_3 {
+.bg_3::after {
+  content: "";
   display: inline-block;
-  width: 136px;
-  height: 3px;
+  border: none;
   background-color: #1abc9c;
-  margin-bottom: 29px;
+  height: 3px;
+  width: 136px;
+  text-align: left;
+  margin-bottom: 32px;
 }
 .latest_news p {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 18px;
   margin-bottom: 19px;
+  color: #555252;
 }
 button {
   font-family: "Open Sans", sans-serif;
