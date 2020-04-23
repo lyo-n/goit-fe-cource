@@ -115,7 +115,7 @@
   display: block;
   margin: 0 auto;
 }
-.filling_list div {
+.filling_list p {
   float: left;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
