@@ -2,15 +2,38 @@
   margin: 0;
   padding: 0;
 }
-.wrapper {
-  position: relative;
-  margin: 0 auto;
+.header_main {
+  /* margin-top: 38px;
+  position: relative; */
+  margin: 38px auto;
   width: 1110px;
+  height: 25px;
   display: block;
   text-align: center;
+  margin-bottom: 102px;
 }
-.header_main {
-  margin-top: 38px;
+.heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #555252;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* padding-bottom: 30px; */
+  margin-top: 0;
+}
+.heading:after {
+  content: " ";
+  display: inline-block;
+  border: none;
+  background-color: #1abc9c;
+  height: 7px;
+  width: 164px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 92px;
 }
 .site_logo a {
   font-family: "Roboto", sans-serif;
@@ -65,27 +88,18 @@
 .nav_list:nth-child(6) {
   margin-right: 0px;
 }
-.heading h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  color: #555252;
-  font-size: 34px;
-  line-height: 41px;
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 1110px;
+  display: block;
   text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding-bottom: 30px;
-  padding-top: 105px;
+  padding-top: 37px;
 }
-.heading:after {
-  content: " ";
-  display: inline-block;
-  border: none;
-  background-color: #1abc9c;
-  height: 7px;
-  width: 164px;
-  text-align: center;
-  margin-bottom: 92px;
+.section_1 {
+  width: 1110px;
+  height: 840px;
+  margin-bottom: 103px;
 }
 .filling_1 {
   float: left;
@@ -103,7 +117,7 @@
   margin-right: 0px;
 }
 .filling_1:nth-child(n + 5) {
-  margin-bottom: 105px;
+  margin-bottom: 0px;
 }
 .filling_1:hover > .name_products {
   background-color: #1abc9c;
@@ -138,6 +152,10 @@
   text-align: center;
   background: #8c8c8c;
 }
+.section_2 {
+  height: 650px;
+  margin-bottom: 80px;
+}
 .latest_news {
   margin: 0;
   padding: 0;
@@ -147,11 +165,10 @@
   font-weight: 900;
   color: #555252;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 34px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding-bottom: 30px;
 }
 .heading_2:after {
   content: " ";
@@ -161,11 +178,13 @@
   height: 7px;
   width: 164px;
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 .filling_2 {
   float: left;
   margin-right: 30px;
+  margin-bottom: 0px;
   width: 350px;
   text-align: left;
   list-style-type: none;
