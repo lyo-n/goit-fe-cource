@@ -12,29 +12,7 @@
   text-align: center;
   margin-bottom: 102px;
 }
-.heading h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  color: #555252;
-  font-size: 34px;
-  line-height: 34px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  /* padding-bottom: 30px; */
-  margin-top: 0;
-}
-.heading:after {
-  content: " ";
-  display: inline-block;
-  border: none;
-  background-color: #1abc9c;
-  height: 7px;
-  width: 164px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 92px;
-}
+
 .site_logo a {
   font-family: "Roboto", sans-serif;
   font-size: 21px;
@@ -100,6 +78,29 @@
   width: 1110px;
   height: 840px;
   margin-bottom: 103px;
+}
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #555252;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 92px;
+  margin-top: 0;
+}
+.heading:after {
+  content: "";
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  border: none;
+  background-color: #1abc9c;
+  height: 7px;
+  width: 164px;
+  text-align: center;
 }
 .filling_1 {
   float: left;
@@ -193,23 +194,23 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.latest_news h3 {
+.bg_3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
   color: #555252;
 }
 .bg_3::after {
   content: "";
-  display: inline-block;
+  display: block;
   border: none;
   background-color: #1abc9c;
   height: 3px;
   width: 136px;
   text-align: left;
+  margin-top: 15px;
   margin-bottom: 32px;
 }
 .latest_news p {
