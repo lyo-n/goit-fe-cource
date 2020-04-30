@@ -3,22 +3,21 @@
   padding: 0;
 }
 .conteiner {
-  background-color: #e9f0fd;
   padding: 0;
   margin: 0;
-  height: 1445px;
 }
 .header_main {
-  margin: 43px auto;
+  margin: 0px auto;
   width: 1110px;
-  height: 25px;
+  height: 53px;
   display: block;
   text-align: center;
-  margin-bottom: 38px;
+  padding-top: 38px;
 }
 .site_logo a {
   font-family: "Roboto", sans-serif;
   font-size: 21px;
+  line-height: 11px;
   font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
@@ -36,7 +35,7 @@
   float: left;
   font-family: "Open Sans", sans-serif;
   font-size: 11px;
-  line-height: 13px;
+  line-height: 11px;
   text-transform: uppercase;
   font-weight: 900;
   margin-bottom: 15px;
@@ -69,9 +68,11 @@
 .nav_list:nth-child(6) {
   margin-right: 0px;
 }
+.conteiner_2 {
+  background-color: #e9f0fd;
+}
 .wrapper {
   width: 1110px;
-  height: 100vh;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -101,7 +102,6 @@
   border: none;
   font-size: 34px;
   color: white;
-  position: absolute;
   left: 245px;
   top: 225px;
 }
@@ -114,7 +114,6 @@
   border: none;
   font-size: 34px;
   color: white;
-  position: absolute;
   right: 245px;
   top: 225px;
 }
@@ -161,8 +160,7 @@
   right: 0;
 }
 .section_2 {
-  height: 475px;
-  margin-bottom: 100px;
+  height: 575px;
   box-sizing: border-box;
 }
 .new_collection {
@@ -192,11 +190,13 @@
   float: left;
   width: 255px;
   margin-right: 30px;
-  margin-bottom: 100px;
   padding: 0;
   text-align: left;
   list-style-type: none;
   position: relative;
+  display: block;
+  width: 255px;
+  height: 282px;
 }
 .filling:nth-child(4) {
   margin-right: 0px;
@@ -242,6 +242,9 @@
   text-align: center;
   background: #8c8c8c;
 }
+.footer_main {
+  background-color: #e9f0fd;
+}
 .footer {
   height: 88px;
   background-color: #515151;
@@ -257,13 +260,6 @@
 }
 .footer span {
   color: #46bfa9;
-} ////////////////////////////////////////закончил пока
-
-.filling {
-  display: block;
-  position: relative;
-  width: 255px;
-  height: 282px;
 }
 .hover {
   display: block;
