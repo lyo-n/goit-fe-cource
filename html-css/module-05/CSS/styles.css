@@ -46,9 +46,8 @@
   color: black;
   text-decoration: none;
 }
-.link_1 {
+.link:hover {
   color: #1abc9c;
-  text-decoration: none;
 }
 .nav_list:nth-child(1) {
   margin-right: 34px;
@@ -275,19 +274,10 @@
   background-color: rgb(0, 0, 0);
   opacity: 0.549;
 }
-.link_block:hover > .nc_link_1 {
+.filling:hover .link_block button {
   display: block;
 }
-.link_block:hover > .nc_link_2 {
-  display: block;
-}
-.link_block:hover > .nc_link_3 {
-  display: block;
-}
-.link_block:hover > .nc_link_4 {
-  display: block;
-}
-.filling button:hover {
+.filling button:active {
   border-color: rgb(26, 188, 156);
   background-color: rgb(26, 188, 156);
 }
@@ -299,17 +289,16 @@
   opacity: 0.439;
 }
 .link_block {
-  float: left;
   display: block;
   margin: 0;
   padding: 0;
-  width: 164px;
+  width: 166px;
   height: 107px;
   margin: auto;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  top: 32%;
+  left: 4%;
+  bottom: 10;
   right: 0;
 }
 .nc_link_1 {
@@ -361,7 +350,7 @@
 .nc_link_4 img {
   display: block;
   position: absolute;
-  left: 9%;
+  left: 5%;
 }
 .nc_link_4 p {
   position: absolute;
