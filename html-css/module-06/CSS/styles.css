@@ -130,17 +130,16 @@
   font-size: 24px;
   font-family: "Kaushan Script";
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 .heading_page {
   display: block;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  line-height: 1.8;
+  line-height: 1.6;
   text-transform: uppercase;
 }
-
 .heading_main:after {
   content: "";
   display: block;
@@ -207,7 +206,7 @@
 }
 .section_team {
   width: 1200px;
-  height: 915px;
+  height: 935px;
 }
 .text_info_team {
   font-size: 15px;
