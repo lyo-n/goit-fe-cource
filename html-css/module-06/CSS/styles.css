@@ -22,6 +22,8 @@
 }
 .menu_n {
   display: flex;
+  width: 490px;
+  justify-content: space-between;
 }
 .nav_list {
   font-size: 14px;
@@ -37,24 +39,10 @@
   color: #53a08e;
   text-decoration: none;
 }
-.nav_list:nth-child(1) {
-  margin-right: 57px;
-}
-.nav_list:nth-child(2) {
-  margin-right: 55px;
-}
-.nav_list:nth-child(3) {
-  margin-right: 58px;
-}
-.nav_list:nth-child(4) {
-  margin-right: 58px;
-}
-.nav_list:nth-child(5) {
-  margin-right: 0px;
-}
 .link:hover {
   color: #f38181;
-  transition: 0.2s;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 .nav_list:nth-child(1):hover:after {
   content: "";
@@ -270,17 +258,14 @@
   bottom: 10px;
   right: 10px;
   opacity: 0.9;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
   background-image: -moz-linear-gradient(
     90deg,
     rgb(252, 227, 138) 0%,
     rgb(243, 129, 129) 100%
   );
   background-image: -webkit-linear-gradient(
-    90deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  background-image: -ms-linear-gradient(
     90deg,
     rgb(252, 227, 138) 0%,
     rgb(243, 129, 129) 100%
@@ -316,10 +301,10 @@
   right: 10px;
   background-image: url("../IMG/developer.jpg");
   z-index: 15;
+  transition-duration: 2.2s;
 }
 .filling_team:hover > .hover {
   display: block;
-  transition: 0.2s;
 }
 .filling_team:hover > .subscribe button {
   display: block;
@@ -344,6 +329,8 @@
 .filling_team:hover .filling_team_img {
   opacity: 0;
   transition: 0.2s;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 .filling_team h4 {
   font-size: 14px;
