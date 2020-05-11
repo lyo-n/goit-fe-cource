@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "NexaScript";
+  src: url("../FONTS/NexaScript-Light.woff2");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../FONTS/Montserrat-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../FONTS/Montserrat-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Bm431 Italic";
+  src: url("../FONTS/Bm431\ Italic.woff2");
+}
+
+@font-face {
+  font-family: "RobotoSlab-Regular";
+  src: url("../FONTS/RobotoSlab-Regular.woff2");
+}

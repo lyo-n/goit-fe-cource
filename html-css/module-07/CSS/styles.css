@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0 auto;
+  width: 940px;
+  height: 30px;
+  padding-top: 50px;
+  margin-bottom: 113px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site_logo a {
+  font-size: 26px;
+  font-family: "NexaScript";
+  color: #fed443;
+  line-height: 1.577;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  width: 490px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav_link {
+  font-size: 14px;
+  font-family: "Montserrat-SemiBold";
+  line-height: 2.929;
+  color: #222222;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav_link:hover {
+  color: #fed136;
+}
+.section_services {
+  margin: 0 auto;
+  width: 940px;
+  text-align: center;
+}
+.heading_main {
+  font-size: 36px;
+  font-family: "MontserratBold";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+.heading_page {
+  display: block;
+  font-size: 16px;
+  font-family: "Bm431 Italic";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  line-height: 1.2;
+  padding-top: 23px;
+  margin-bottom: 76px;
+}
+.filling_main {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.filling {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: 270px;
+}
+.content_image_1 {
+  height: 71px;
+  width: 270px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 5;
+  justify-content: center;
+}
+.circle {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 209, 54);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 72px;
+  height: 71px;
+}
+.content_image_1::before {
+  content: "";
+  background-image: url("../IMG/e_commerce.png");
+  background-size: 40px 39px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 42.5%;
+  top: 25%;
+}
+.content_image_2 {
+  height: 71px;
+  width: 270px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 5;
+  justify-content: center;
+}
+.content_image_2::before {
+  content: "";
+  background-image: url("../IMG/responcive_web.png");
+  background-size: 40px 39px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 42.5%;
+  top: 25%;
+}
+.content_image_3 {
+  height: 71px;
+  width: 270px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 5;
+  justify-content: center;
+}
+.content_image_3::before {
+  content: "";
+  background-image: url("../IMG/web_security.png");
+  background-size: 40px 39px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 42.5%;
+  top: 25%;
+}
+.filling h3 {
+  font-size: 18px;
+  font-family: "MontserratBold";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 4.167;
+  text-align: center;
+}
+.filling p {
+  font-size: 13px;
+  font-family: "RobotoSlab-Regular";
+  color: rgb(119, 119, 119);
+  line-height: 1.8;
+  word-spacing: 1px;
+  text-align: center;
+}
+.footer {
+  width: 1400px;
+  height: 676px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+}
+.footer_img {
+  content: "";
+  background-image: url("../IMG/map.png");
+  opacity: 0.302;
+  position: relative;
+  left: 56%;
+  bottom: 74%;
+  width: 614px;
+  height: 537px;
+}
+.heading_main_footer {
+  font-size: 36px;
+  font-family: "MontserratBold";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-top: 109px;
+}
+.heading_page_footer {
+  display: block;
+  font-size: 16px;
+  font-family: "Bm431 Italic";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  padding-top: 23px;
+  margin-bottom: 76px;
+}
+.input_field {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  height: 216px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.form input::placeholder {
+  font-size: 14px;
+  font-family: "MontserratBold";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-indent: 1.5em;
+}
+textarea::placeholder {
+  position: relative;
+  top: 5%;
+  font-size: 14px;
+  font-family: "MontserratBold";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-indent: 1.5em;
+}
+#message_id {
+  font-size: 14px;
+  resize: none;
+  line-height: 1.6;
+  text-indent: 1.5em;
+  padding-top: 10px;
+}
+.name_inp {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  width: 459px;
+  height: 54px;
+}
+.email {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  width: 459px;
+  height: 54px;
+}
+.subject {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  width: 459px;
+  height: 54px;
+}
+.message {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 459px;
+  height: 214px;
+}
+.footer button {
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  border-color: rgb(254, 209, 54);
+  border-style: none;
+  width: 240px;
+  height: 66px;
+  margin-top: 29px;
+  font-size: 18px;
+  font-family: "MontserratBold";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+textarea:valid:not(:placeholder-shown) {
+  outline: 3px solid green;
+}
+textarea:invalid:not(:placeholder-shown) {
+  outline: 3px solid red;
+}
+textarea:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+input:valid:not(:placeholder-shown) {
+  outline: 3px solid green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  outline: 3px solid red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
