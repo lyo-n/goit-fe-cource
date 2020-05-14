@@ -68,18 +68,34 @@
         <span class="heading_page_footer">Proin iaculis purus consequat sem cure.</span>
         <div class="input_field">
           <form action="#" class="form">
+            <div class="inpt_area">
+            <div class="inpt">
            <input class="name_inp" id="name" type="text" name="name" required pattern="[A-Za-z]{1,255}\s[A-Za-z]{1,255}" placeholder="your name*" required />
            <input class="email" id="email" name="email" type="email" name="email" required pattern="\S+@[a-z]+.[a-z]+" placeholder="your e-mail*" required  />
            <input class="subject" name="subject" placeholder="subject" />
+          </div>
+          <div class="area">
+           <textarea class="message" id="message_id" cols="500" rows="500" placeholder="your message*" required></textarea>
+          </div>
+          </div>
+          <div class="btn">
+           <button type="submit" class="send_message">send message</button>
+          </div>
           </form>
-          <div class="message_main">
+        </div>
+
+
+
+
+
+          <!-- <div class="message_main">
             <div class="input_message">
               <textarea  class="message" id="message_id" cols="500" rows="500" placeholder="your message*" required></textarea>
             </div>
                      
           </div>
         </div>
-        <button class="send_message">send message</button>
+        <button type="submit" class="send_message">send message</button> -->
         <div class="footer_img"></div>
       </footer>
 </html>

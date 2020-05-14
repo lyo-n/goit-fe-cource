@@ -192,16 +192,32 @@
 }
 .input_field {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
   width: 940px;
-  height: 216px;
+  height: 306px;
   margin: 0 auto;
 }
-.form {
+.inpt {
+  width: 455px;
+  height: 212px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  list-style-type: none;
+}
+.area {
+  width: 455px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.inpt_area {
+  width: 940px;
+  height: 212px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .form input::placeholder {
   font-size: 14px;
@@ -266,7 +282,7 @@ textarea::placeholder {
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   width: 459px;
-  height: 214px;
+  height: 206px;
 }
 .footer button {
   border-radius: 3px;
