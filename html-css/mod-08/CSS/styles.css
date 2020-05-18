@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header_main {
+  background-image: url("../IMG/mobile/main_mobile.png");
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translate(-50%);
+  height: 540px;
+  display: block;
+  margin-bottom: 70px;
+}
+.btn_header {
+  width: 134px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.btn_header button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border: medium none;
+  background-image: none;
+  background: transparent;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: transparent;
+  width: 68px;
+  height: 30px;
+}
+.btn_header button:hover {
+  border-color: black;
+  background-color: black;
+}
+.heading {
+  margin-top: 110px;
+}
+.heading p {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.heading a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.heading h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.heading h2 {
+  font-size: 18px;
+  font-family: "VegurLight";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.heading button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: transparent;
+  width: 260px;
+  height: 36px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.heading button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 260px;
+  color: white;
+}
+.heading_main {
+  font-size: 22px;
+  font-family: "Myriad Pro";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.filling_main {
+  list-style-type: none;
+  height: 920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.filling {
+  display: block;
+  height: 230px;
+}
+.filling:nth-child(2) {
+  padding-bottom: 29px;
+}
+.img_filling {
+  position: relative;
+  height: 124px;
+  display: block;
+  padding-bottom: 10px;
+}
+.icon_1 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_1:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/1_hunter.png");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 27%;
+  top: 22%;
+}
+.icon_pos {
+  position: relative;
+  left: 56%;
+  bottom: 43px;
+}
+.filling h4 {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 0.9;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.filling p {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1;
+  text-align: center;
+}
+.icon_2 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_2:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/2_marsha.png");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 27%;
+  top: 22%;
+}
+.icon_3 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_3:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/3_walker.png");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 27%;
+  top: 22%;
+}
+.icon_4 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_4:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/4_Bhunter.png");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 27%;
+  top: 22%;
+}
+.main button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: transparent;
+  width: 260px;
+  height: 36px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.main button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 260px;
+  color: white;
+}
